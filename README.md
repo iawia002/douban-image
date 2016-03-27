@@ -1,10 +1,10 @@
-# douban-image.py
+# movie.py
 豆瓣电影 电影海报、壁纸自动下载程序  
 python爬虫程序自动下载给定豆瓣电影地址的所有海报和壁纸  
 使用requests，gevent，re模块编写
 
 示例：
-> python douban-image.py https://movie.douban.com/subject/19955769/photos?type=R  
+> python movie.py https://movie.douban.com/subject/19955769/photos?type=R  
 
 ![screenshots](https://github.com/iawia002/douban-image/raw/master/screenshots/1.png)
 
