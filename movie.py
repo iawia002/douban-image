@@ -69,7 +69,7 @@ def download(urls):
 		print '正在下载 %s' % url
 		filename = url.split('/')[-1]
 		r = requests.get(url, headers={'Referer':'http://movie.douban.com'}, stream=True)
-		with open('./1/'+filename, 'wb') as f:
+		with open('./movie/'+filename, 'wb') as f:
 			for chunk in r.iter_content(chunk_size=2048):
 			# for chunk in r.iter_content():
 				if chunk:
